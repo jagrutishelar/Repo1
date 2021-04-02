@@ -11,9 +11,9 @@ public class P21 {
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 }
 public static void main(String[] args) {
-		Scanner scr = new Scanner(System.in);
+		Scanner src = new Scanner(System.in);
 		System.out.println("please enter Url");
-		String url = scr.nextLine();
+		String url = src.nextLine();
 		WebDriver driver=new ChromeDriver();
 		driver.get(url);
 		List<WebElement> allLinksOfAmazon = driver.findElements(By.xpath("//a"));

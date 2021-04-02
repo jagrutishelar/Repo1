@@ -30,6 +30,7 @@ public class P26 {
 		s3.selectByVisibleText("1997");
 		Thread.sleep(5000);
 		driver.close();
+		
 	}
 
 }
